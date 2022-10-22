@@ -14,14 +14,16 @@
   --h1-text-color: #1d2228;
   --default-spacing: 2em;
 }
-
+html {
+  height: 100%;
+}
 body {
   font-size: calc(0.75em + 0.5vmin);
   color: var(--text-color);
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
   padding: var(--default-spacing);
-  height: 100vh;
+  min-height: 100%;
   display: grid;
   place-items: center;
 }
@@ -145,7 +147,7 @@ a:visited {
 @media screen and (max-width: 800px) {
   .product-container {
     flex-direction: column;
-    max-height: calc(100vh - 6em);
+    max-height: 100%;
   }
 
   .product-image,
