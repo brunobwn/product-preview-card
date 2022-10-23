@@ -16,7 +16,7 @@
 }
 
 body {
-  font-size: calc(0.75em + 0.5vmin);
+  font-size: 1em;
   color: var(--text-color);
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 50em;
+  max-height: 36em;
   background-color: white;
   border-radius: 0.8em;
   overflow: hidden;
@@ -164,5 +165,17 @@ a:visited {
   .product-image {
     min-height: clamp(15em, 35vh, 35em);
     background-image: url("../images/image-product-mobile.jpg");
+  }
+
+  h1.product-title {
+    font-size: 2.5em;
+  }
+
+  object.product-button-icon {
+    scale: 1.2;
+  }
+
+  button.add-cart-button {
+    font-size: 1.2em;
   }
 }
