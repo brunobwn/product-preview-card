@@ -60,7 +60,7 @@ body {
   padding: var(--default-spacing);
   display: flex;
   flex-direction: column;
-  row-gap: 1em;
+  row-gap: 2em;
   justify-content: space-between;
 }
 
@@ -75,7 +75,7 @@ h5.product-category {
 h1.product-title {
   font-family: "Fraunces", serif;
   color: var(--h1-text-color);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1em;
   font-size: 3em;
 }
@@ -149,7 +149,7 @@ object.product-button-icon {
 a:visited {
   color: var(--text-color);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 660px) {
@@ -162,6 +162,10 @@ a:visited {
     flex-direction: column;
     min-width: calc(100vw - 4em);
     max-height: 50em;
+  }
+
+  .product-details {
+    row-gap: 1em;
   }
 
   .product-image,
