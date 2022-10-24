@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Something interesting that I've learned in this project is the use of <source> tag inside a <picture>, to change the source of an image according to the screen resolution (or other css query). By doing this we can reduce download sizes to users on mobile, by changing to small image files.
+Something interesting that I've learned in this project is the use of 'source' tag inside a 'picture', to change the source of an image according to the screen resolution (or other css query). By doing this we can reduce download sizes to users on mobile, by changing to small image files.
 
 An exemple applied in this project:
 
