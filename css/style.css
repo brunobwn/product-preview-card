@@ -105,7 +105,6 @@ span.product-price-actual {
 }
 
 span.product-price-old {
-  text-decoration: line-through;
   font-weight: 500;
 }
 
