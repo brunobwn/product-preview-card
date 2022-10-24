@@ -7,16 +7,16 @@
 }
 
 :root {
-  --cream: #f3eae3;
-  --green: #3d8168;
+  --cream: hsl(30, 38%, 92%);
+  --green: hsl(158, 36%, 37%);
   --green-darker: #1a4031;
-  --text-color: #92929b;
-  --h1-text-color: #1d2228;
+  --text-color: hsl(228, 12%, 48%);
+  --h1-text-color: hsl(212, 21%, 14%);
   --default-spacing: 2em;
 }
 
 body {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-color);
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
