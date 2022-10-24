@@ -171,16 +171,13 @@ a:visited {
   }
 
   .product-image {
-    /* min-height: clamp(18em, 50vh, 21em); */
     height: 21em;
-    /* background-image: url("../images/image-product-mobile.jpg"); */
   }
 
   .product-image img {
     width: 120%;
     height: auto;
     object-fit: cover;
-    /* max-height: auto; */
   }
 
   h1.product-title {
